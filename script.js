@@ -1,4 +1,4 @@
-    document.getElementById('myForm').addEventListener('submit', async function (event) {
+    document.getElementById('loginForm').addEventListener('submit', async function (event) {
         event.preventDefault();
         const formData = new FormData(this);
         const data = Object.fromEntries(formData.entries());
